@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var query = function(selector,context){
+            return new query.prototype.init();
+        }
+
+        query.prototype = {
+            init: function(){
+                return this;
+            },
+            name: function(){
+                return this.name;
+            },
+            age: 20
+        }
+
+        query.prototype.init.prototype = query.prototype;
+
+        var a = query();
+
+    </script>
+</body>
+</html>
